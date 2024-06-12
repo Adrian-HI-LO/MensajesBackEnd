@@ -12,10 +12,10 @@ app.use(cors())
 
 // Configuración de la base de datos
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root', // reemplaza con tu usuario de MySQL
-    password: '20ADs34lL./', // reemplaza con tu contraseña de MySQL
-    database: 'p_msj' // reemplaza con tu base de datos de MySQL
+    host: 'b0hzslljgil9xkwaf0np-mysql.services.clever-cloud.com',
+    user: 'uwy46ggoxj7fmctg', // reemplaza con tu usuario de MySQL
+    password: 'jz1cVX7mzRdKfqfa7tgl', // reemplaza con tu contraseña de MySQL
+    database: 'b0hzslljgil9xkwaf0np' // reemplaza con tu base de datos de MySQL
 });
 
 // Conexión a la base de datos
